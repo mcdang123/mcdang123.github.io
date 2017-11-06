@@ -146,7 +146,7 @@ Text
 
 
     <h4>Example</h4>
-<p>The headers element is an introductionary section of the HTML code, often having the style and color coding in it.</p>
+<p>&ltheader&gt</p>
             
             <hr>
 <a name="title"></a>
@@ -155,10 +155,10 @@ Text
     <h4>Description</h4>
     <p>The title element creates a text in the tab for the website.</p>
     <h4>Syntax</h4>
-    <p>&lttitle&gt, &lttitle&gt</p>
+    <p>&lttitle&gt, &lt/title&gt</p>
 
     <h4>Example</h4>
-<p>The title element is used to create the name of the page and what will be seen when browsing from a search engine like google.</p>
+<p>&lttitle&gtCSS Exercises&lt/title&gt</p>
     <h4>Rendering</h4>
     <p>Look at the name of this tab, that's a title</p>
             
@@ -174,7 +174,7 @@ Text
 
 
     <h4>Example</h4>
-<p>Everthing you see on a website is coded inside the body element to make it appear onto the website.</p>
+<p>&lt;body&gt;Content&lt;/body&gt;</p>
     <h4>Rendering</h4>
     <p>Everything you see on this website is coded inside a body element.</p>
             
@@ -189,7 +189,7 @@ Text
 
 
     <h4>Example</h4>
-<p>The headings element is often used to create titles in a website.</p>
+<p>&lth5&gt Hello World! &lt/h5&gt &lth6&gtHello Smaller World!&lt/h6&gt</p>
     <h4>Rendering</h4>
     <h5>Hello World!</h5>
             <h6>Hello Smaller World!</h6>
@@ -205,7 +205,7 @@ Text
 
 
     <h4>Example</h4>
-    <p>&lt;hr&gt; The paragraph element is mostly used to create simple text</p>
+    <p>&lt;p&gt; Hello World!&lt/p&gt</p>
     <h4>Rendering</h4>
     <p>Hello World!</p>
     
@@ -220,7 +220,10 @@ Text
 
 
     <h4>Example</h4>
-    When writing a poem for example, people use a break to create structure.
+   &lt;p&gt;My Bonnie lies over the ocean&lt;br&gt;
+    My Bonnie lies over the sea&lt;br&gt;
+    My Bonnie lies over the ocean&lt;br&gt;
+    Oh, bring back my Bonnie to me.&lt;/p&gt;
     <h4>Rendering</h4>
     <p>My Bonnie lies over the ocean.<br>
 My Bonnie lies over the sea.<br>
@@ -238,7 +241,7 @@ Oh, bring back my Bonnie to me.</p>
 
 
     <h4>Example</h4>
-    <p>Lines are used to create visual seperations between two items. Lines are a great tool to keep the website looking organized</p>
+    <p>&lt;hr&gt;</p>
     <h4>Rendering</h4>
     <hr>
 <a name="comment"></a>
@@ -250,7 +253,7 @@ Oh, bring back my Bonnie to me.</p>
     <p>&lt;!-- --&gt;
 
     <h4>Example</h4>
-   <p>Commenting is used when you want to quickly know what a set of code is about. That way you can efficiently fix or edit the code.</p>
+   <p>&lt;!--You Can't See Me!--&gt;</p>
     <h4>Rendering</h4>
     
     <hr>
@@ -264,7 +267,7 @@ Oh, bring back my Bonnie to me.</p>
 
 
     <h4>Example</h4>
-   <p>Links are used when the website designer wants the site to linked to others, for whatever reason.</p>
+   <p>&lt;a hret="https://www.google.com/"&gt;Google&lt;/a&gt;</p>
     <h4>Rendering</h4>
     <a hret="https://www.google.com/">Google</a>
     
@@ -279,7 +282,7 @@ Oh, bring back my Bonnie to me.</p>
 
 
     <h4>Example</h4>
-   <p>Images are used to create a visual for anything.</p>
+   <p>&lt;img src="https://s3-us-west-1.amazonaws.com/powr/defaults/image-slider2.jpg"&gt;</p>
     <h4>Rendering</h4>
    <p><img src="https://s3-us-west-1.amazonaws.com/powr/defaults/image-slider2.jpg">
     </p>
@@ -292,11 +295,15 @@ Oh, bring back my Bonnie to me.</p>
     <h4>Syntax</h4>
     <p>&lt;ul&gt;
     &lt;ol&gt;
-    &lt;il&gt;
+    &lt;li&gt;
 
 
     <h4>Example</h4>
-   <p>List are commonly used for listing things like a list of favorites or a list of top tens.</p>
+   <p>&lt;ol&gt;
+  &lt;li&gt;Coffee&lt;/li&gt;
+  &lt;li&gt;Tea&lt;/li&gt;
+  &lt;li&gt;Milk&lt;/li&gt;
+    &lt;/ol&gt;</p>
     <h4>Rendering</h4>
     <p>
 <ol>
@@ -304,22 +311,7 @@ Oh, bring back my Bonnie to me.</p>
   <li>Tea</li>
   <li>Milk</li>
 </ol>
-</p>
-<p>
-<ul style="list-style-type:square">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>
-</p>
-<p>
-<ol type="A">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ol>
-</p>
-    
+</p>   
     <hr>
 <a name="table"></a>
 <a href="#top">link to top</a>
