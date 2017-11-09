@@ -9,6 +9,7 @@ body            {
 }
 h2              {
         color: #FC481A;
+        border:2px solid #FC481A;
 }
 h4              {
         color:#F7B733;
