@@ -1,0 +1,42 @@
+body            {
+        color:#DFDCE3;
+        font-family: "Comic Sans MS", Sans-Serif;
+}
+.heading-style  {
+        font-family: "Comic Sans MS", Sans-Serif;
+        color: #DFDCE3;
+        text-align: center;
+}
+h2              {
+        color: #FC481A;
+}
+h4              {
+        color:#F7B733;
+}
+p               {
+        color: #DFDCE3;
+}
+a:link          {
+        color:#DFDCE3;
+}
+a:visited       {
+    color: #FC481A;
+}
+a:hover         {
+    color: blue;
+}
+th              {
+        color:#F7B733;
+        font-size: 20;}
+th, td          {
+    border-bottom: 1px solid #F7B733;
+    text-align: left;
+        
+}
+.codestyle      {
+        font-family:"Courier","Courier New";
+        color:white;
+}
+.background-color{
+        background-color:#4ABDAC;
+}
