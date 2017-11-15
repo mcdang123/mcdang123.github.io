@@ -4,11 +4,13 @@
 
 body {
   margin: 0;
+  color:#2b5a23;
+  background-color:#828345;
 }
 
 /* Style the header */
 .header {
-    background-color: #f1f1f1;
+    background-color: #7a682e;
     padding: 20px;
     text-align: center;
 }
@@ -16,7 +18,7 @@ body {
 /* Style the top navigation bar */
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #544218;
 }
 
 /* Style the topnav links */
@@ -31,13 +33,13 @@ body {
 
 /* Change color on hover */
 .topnav a:hover:not(.active) {
-    background-color: #ddd;
+    background-color:#506d41;
     color: black;
 }
 
 /* indicate active page on nav */
 #activepage {
-    background-color: #4CAF50;
+    background-color: #2b5a23;
 }
 
 /* A - Create three unequal columns that floats next to each other */
@@ -72,7 +74,7 @@ body {
 
 /* Style the footer */
 .footer {
-    background-color: #f1f1f1;
+    background-color: #828345;
     padding: 10px;
     text-align: center;
 }
