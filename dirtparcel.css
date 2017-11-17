@@ -4,26 +4,27 @@
 
 body {
   margin: 0;
-  color:#2b5a23;
-  background-color:#828345;
+  font-family: Verdana;
+  background:#8d8741;
 }
 
 /* Style the header */
 .header {
-    background-color: #7a682e;
-    padding: 20px;
-    text-align: center;
+    background-image:url("http://www.shopsite.com/templates/cookbook/theme-images/congruence-circles-brown.jpg");
+    padding: 100px;
+    text-align: left;
+    color: white;
 }
 
 /* Style the top navigation bar */
 .topnav {
     overflow: hidden;
-    background-color: #544218;
+    background-color: #8d8741;
 }
 
 /* Style the topnav links */
 .topnav a {
-    float: left;
+    float: right;
     display: block;
     color: #f2f2f2;
     text-align: center;
@@ -33,13 +34,13 @@ body {
 
 /* Change color on hover */
 .topnav a:hover:not(.active) {
-    background-color:#506d41;
+    background-color:	#945b14;
     color: black;
 }
 
 /* indicate active page on nav */
 #activepage {
-    background-color: #2b5a23;
+    background-color: #659dbd;
 }
 
 /* A - Create three unequal columns that floats next to each other */
@@ -77,4 +78,16 @@ body {
     background-color: #828345;
     padding: 10px;
     text-align: center;
+}
+
+.width50{
+        width:50%;
+}
+.lightblock{
+        background:#daad86;
+        color:#8d8741;
+}
+.darkblock{
+        background:#bc986a;
+        color:#8d8741;
 }
