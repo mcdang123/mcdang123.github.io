@@ -50,13 +50,13 @@ body {
 }
 
 /* Left and right column */
-.column.side {
+.columnside {
     width: 25%;
 }
 
 /* Middle column */
-.column.middle {
-    width: 50%;
+.columnmiddle {
+    align-self:center
 }
 
 /* Clear floats after the columns */
@@ -90,4 +90,13 @@ body {
 .darkblock{
         background:#bc986a;
         color:#8d8741;
+}
+.listbrown{
+        padding:32px;
+}
+.button{
+        padding:10px;
+        text-align:center;
+        background-color:#659dbd;
+        color:white;
 }
